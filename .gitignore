@@ -1,29 +1,127 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# DxTxGxO.cz
+###
+### SOubory hry se uloží zde:
+### 
+### %SystemDrive%\Users\%USERNAME%\AppData\Roaming\Steam\CODEX\\remote
+### 
+### Achievementy se uloží zde:
+### 
+### %SystemDrive%\Users\%USERNAME%\AppData\Roaming\Steam\CODEX\\achievements.ini
+### 
+### Statistiky se uloží zde:
+### 
+### %SystemDrive%\Users\%USERNAME%\AppData\Roaming\Steam\CODEX\\stats.ini
 
-# Precompiled Headers
-*.gch
-*.pch
+[Settings]
+###
+### Game identifier (http://store.steampowered.com/app/)
+###
+AppId=383870
+###
+### Steam Account ID, nastav 0 pro získání náhodného ID účtu
+###
+#AccountId=0
+### 
+### DTGO-player
+###
+UserName=DTGO-player
+###
+### Jazyk (angličtina)
+###
+Language=english
+###
+### code státu
+###
+#Country=UK
+###
+### lobby mode
+###
+LobbyEnabled=1
+###
+### port pro odposlech
+###
+#LobbyPort=
+###
+### offline mod (steam)
+###
+Offline=0
+###
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+[Interfaces]
+###
+### Steam Client API interface versions
+###
+SteamAppList=STEAMAPPLIST_INTERFACE_VERSION001
+SteamApps=STEAMAPPS_INTERFACE_VERSION007
+SteamClient=SteamClient017
+SteamContentServer=0
+SteamController=STEAMCONTROLLER_INTERFACE_VERSION
+SteamFriends=SteamFriends015
+SteamGameServer=SteamGameServer012
+SteamGameServerStats=SteamGameServerStats001
+SteamHTMLSurface=STEAMHTMLSURFACE_INTERFACE_VERSION_002
+SteamHTTP=STEAMHTTP_INTERFACE_VERSION002
+SteamInventory=STEAMINVENTORY_INTERFACE_V001
+SteamMasterServerUpdater=0
+SteamMatchMaking=SteamMatchMaking009
+SteamMatchMakingServers=SteamMatchMakingServers002
+SteamMusic=STEAMMUSIC_INTERFACE_VERSION001
+SteamMusicRemote=STEAMMUSICREMOTE_INTERFACE_VERSION001
+SteamNetworking=SteamNetworking005
+SteamRemoteStorage=STEAMREMOTESTORAGE_INTERFACE_VERSION012
+SteamScreenshots=STEAMSCREENSHOTS_INTERFACE_VERSION002
+SteamUGC=STEAMUGC_INTERFACE_VERSION003
+SteamUnifiedMessages=STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
+SteamUser=SteamUser018
+SteamUserStats=STEAMUSERSTATS_INTERFACE_VERSION011
+SteamUtils=SteamUtils007
+SteamVideo=STEAMVIDEO_INTERFACE_V001
+###
 
-# Fortran module files
-*.mod
-*.smod
+[DLC]
+###
+### automaticky odemknout všechny DLC
+###
+DLCUnlockall=0
+###
+### ID DLC
+###
+#ID=Name
+###
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+[AchievementIcons]
+###
+### Bitmap Icons for Achievements
+###
+#Internal Achievement Identifier Achieved=Path to Achieved Bitmap
+#Internal Achievement Identifier Unachieved=Path to Unachieved Bitmap
+#Unachieved=Path to General Unachieved Bitmap
+###
 
-# Executables
-*.exe
-*.out
-*.app
+[HTTP]
+###
+### Locally cached HTTP requested files
+###
+#MD5 Hash of URL=Path to File
+###
+
+[Avatar]
+###
+### Bitmap Avatar files
+### 
+### 32x32 Pixel
+#Small=Path of Avatar32.bmp relative to this .ini
+###
+### 64x64 Pixel
+#Medium=Path of Avatar64.bmp relative to this .ini
+###
+### 184x184 Pixel
+#Large=Path of Avatar184.bmp relative to this .ini
+###
+
+[Crack]
+5ed0875f2691e8bc=b7d5bc716512b5d6
+77fc5e8a974b1ccb=b7d5bc716512b5d6
+8f2c3f2b2ccc704e=b7d5bc716512b5d6
+d87e51d607af0194=b7d5bc716512b5d6
+fb3854ff17a680a2=b7d5bc716512b5d6
